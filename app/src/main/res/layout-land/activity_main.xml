@@ -9,6 +9,13 @@
     <FrameLayout
         android:id="@+id/notes_list_container"
         android:layout_width="match_parent"
+        android:layout_weight="1"
+        android:layout_height="match_parent"/>
+
+    <FrameLayout
+        android:id="@+id/note_description_container"
+        android:layout_width="match_parent"
+        android:layout_weight="1"
         android:layout_height="match_parent"/>
 
 </LinearLayout>
